@@ -28,6 +28,7 @@
 *.color15: #ffffff
 
 URxvt*font: xft:Inconsolata Nerd Font Mono:style=Medium:size=14:pixelsize
+URxvt*letterSpace: -1
 URxvt*borderLess: false
 URxvt*externalBorder: 0
 URxvt*internalBorder: 4
