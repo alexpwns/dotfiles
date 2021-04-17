@@ -28,6 +28,9 @@
 *.color7: #e4e4e4
 *.color15: #ffffff
 
+! Transparency DOES NOT WORK
+urxvt*depth: 32
+urxvt*background: rgba:0000/0000/0200/c800
 
 ! Fix copy/paste in urxvt
 URxvt.keysym.Shift-Control-V: eval:paste_clipboard
