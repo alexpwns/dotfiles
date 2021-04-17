@@ -1,3 +1,11 @@
+call plug#begin("$XDG_CONFIG_HOME/nvim/plugged")
+Plug 'chrisbra/csv.vim'
+call plug#end()
+
+" auto use csv.vim plugin for csvs.
+autocmd BufRead,BufWritePost *.csv :%ArrangeColumn!
+autocmd BufWritePre *.csv :%UnArrangeColumn
+
 set clipboard+=unnamedplus
 
 noremap <Up> <Nop>
