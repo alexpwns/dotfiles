@@ -92,7 +92,7 @@ bindsym $mod+CTRL+Shift+l exec --no-startup-id $i3lockwall
 
 # Set wallpaper
 exec --no-startup-id feh --no-fehbg --bg-fill \
-~/.config/i3/feh/skull.png
+~/.config/i3/feh/river.png
 
 # floating pop up automatically
 for_window [window_role="pop-up"] floating enable

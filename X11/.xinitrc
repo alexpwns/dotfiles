@@ -1,4 +1,11 @@
+# Run URxvt's daemon
 urxvtd -o -q -f
+
+# Disable loud beep
+xset b off
+
+# Merge .Xresources
 xrdb -merge ~/.config/X11/.Xresources
-# Always keep the following line at the end of this file.
+
+# Keep everything below at end of file.
 exec i3
