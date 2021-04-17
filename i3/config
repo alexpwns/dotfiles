@@ -30,6 +30,9 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 
+# Start dunst for notifications
+exec --no-startup-id dunst
+
 # Set coloring
 # special
 set_from_resource $foreground foreground #C6C6C6
